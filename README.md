@@ -11,6 +11,8 @@ This guide will help you set up the backend and frontend of the project.
 Navigate to the `backend` folder and run:
 
 ```bash
+npm init -y
+npm install express mongoose dotenv cors passport passport-google-oauth20 jsonwebtoken cloudinary multer multer-storage-cloudinary
 npm install
 ```
 
@@ -39,6 +41,7 @@ CLOUDINARY_API_SECRET=
 Navigate to the `frontend` folder and run:
 
 ```bash
+npm install axios react-router-dom
 npm install
 ```
 
